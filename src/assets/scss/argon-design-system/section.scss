@@ -84,6 +84,32 @@
             transform: skew(4deg);
         }
     }
+    .shape-custom {
+        background: linear-gradient(150deg, #0D4F2A 15%, #1E6C42 70%, #2E8556 94%);
+    
+        :nth-child(1) {
+            background: #0D4F2A; /* verde escuro */
+        }
+    
+        :nth-child(2) {
+            background: #1E6C42; /* verde médio */
+        }
+    
+        :nth-child(3) {
+            background: #2E8556; /* verde claro */
+        }
+    
+        :nth-child(4) {
+            background: #225E6D; /* azul petróleo */
+        }
+    
+        :nth-child(5) {
+            background: #184B61; /* azul escuro */
+        }
+    }
+    
+    
+    
 
     // Color variations
     .shape-primary {
@@ -547,25 +573,15 @@
 }
 
 
-/* .floating-cards {
-     perspective:1500px;
-     position:relative;
-     align-items:center
-}
-
-.floating-cards > div {
-     position:absolute;
-     -ms-flex-negative:0;
-     flex-shrink:0;
-     border-radius:8px;
-     overflow:hidden
-}
-.floating-cards .shine {
-     position:absolute;
-     left:0;
-     right:0;
-     top:0;
-     bottom:0;
-     pointer-events:none
-}
-*/
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Esta linha é necessária para centralizar verticalmente */
+    margin-bottom: 20px;
+  }
+  
+  .logo-tech-abilities {
+    width: 200px;
+  }
+  
