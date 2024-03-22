@@ -196,7 +196,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Follow me on LinkedIn
                     </UncontrolledTooltip>
                   </NavItem>
                  
