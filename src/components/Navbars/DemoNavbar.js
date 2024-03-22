@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -24,7 +7,6 @@ import {
   Button,
   UncontrolledCollapse,
   DropdownMenu,
-  DropdownItem,
   DropdownToggle,
   UncontrolledDropdown,
   Media,
@@ -188,7 +170,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href=""
+                      href="https://web.whatsapp.com/send?phone=11954013521&text=Hello. I'm looking for a professional with your skills. Can we schedule a conversation about it%3F"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -204,7 +186,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.linkedin.com/in/eduardosrocha/"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -238,7 +220,7 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="#"
+                      href="https://drive.google.com/file/d/1pA1CjE9lrd_H1Jn2QeWW5DuZq4_FNs0T/view?usp=sharing"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
