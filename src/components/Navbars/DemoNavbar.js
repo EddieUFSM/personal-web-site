@@ -123,7 +123,7 @@ class DemoNavbar extends React.Component {
                               Logs Service | Hexagonal Arch
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Basic demo of hexagonal archtecture with NestJs with commented code
+                              Basic demo of hexagonal architecture with NestJs with commented code
                             </p>
                           </Media>
                         </Media>
